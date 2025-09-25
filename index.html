@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rohan Cook | 3D Visualisation Portfolio</title>
+    <meta name="description" content="Minimalist Blender-based 3D visualisation portfolio for Rohan Cook." />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    <header class="site-header">
+        <div class="container">
+            <a class="logo" href="#top">Rohan Cook</a>
+            <nav class="site-nav" aria-label="Primary navigation">
+                <ul>
+                    <li><a href="#work">Work</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <a class="btn btn-ghost" href="#contact">Start a project</a>
+        </div>
+    </header>
+
+    <main id="top">
+        <section id="work" class="section section-full gallery">
+            <div class="container gallery-layout">
+                <div class="gallery-intro">
+                    <p class="eyebrow">Featured Commissions</p>
+                    <h1>Image-led index of recent 3D studies.</h1>
+                    <p class="lead">Select a project tile to surface the intent, lighting approach, and final deliverables.</p>
+                </div>
+                <div class="gallery-content">
+                    <div class="project-gallery" role="list">
+                        <button class="project-card tile-atrium is-active" type="button" data-project="atrium" role="listitem" aria-pressed="true">
+                            <div class="card-media" aria-hidden="true"></div>
+                            <div class="card-body">
+                                <span class="card-tag">Residential</span>
+                                <strong>Nordic Atrium Residences</strong>
+                                <span class="card-meta">Light-first interiors</span>
+                            </div>
+                        </button>
+                        <button class="project-card tile-lumen" type="button" data-project="lumen" role="listitem" aria-pressed="false">
+                            <div class="card-media" aria-hidden="true"></div>
+                            <div class="card-body">
+                                <span class="card-tag">Experiential</span>
+                                <strong>Gallery Lumen Expansion</strong>
+                                <span class="card-meta">Wayfinding with colour</span>
+                            </div>
+                        </button>
+                        <button class="project-card tile-monolith" type="button" data-project="monolith" role="listitem" aria-pressed="false">
+                            <div class="card-media" aria-hidden="true"></div>
+                            <div class="card-body">
+                                <span class="card-tag">Product</span>
+                                <strong>Monolith Lighting Series</strong>
+                                <span class="card-meta">Launch imagery suite</span>
+                            </div>
+                        </button>
+                        <button class="project-card tile-horizon" type="button" data-project="horizon" role="listitem" aria-pressed="false">
+                            <div class="card-media" aria-hidden="true"></div>
+                            <div class="card-body">
+                                <span class="card-tag">Hospitality</span>
+                                <strong>Horizon Rooftop Concept</strong>
+                                <span class="card-meta">Atmospheric lounges</span>
+                            </div>
+                        </button>
+                    </div>
+                    <div class="project-details" aria-live="polite">
+                        <article class="project-detail is-active" data-project="atrium">
+                            <header>
+                                <span class="card-tag">Residential</span>
+                                <h2>Nordic Atrium Residences</h2>
+                            </header>
+                            <p>Iterative interior narratives balancing soft winter skylight and tactile finishes. Delivered as a sequence of stills and looping micro-animations optimised for client walk-throughs.</p>
+                            <ul class="project-insights">
+                                <li>Diffuse lighting for lounge, kitchen, and circulation zones</li>
+                                <li>Material explorations for timber, wool, and polished concrete</li>
+                                <li>Animation-ready Blender files and layered PSD hand-offs</li>
+                            </ul>
+                        </article>
+                        <article class="project-detail" data-project="lumen">
+                            <header>
+                                <span class="card-tag">Experiential</span>
+                                <h2>Gallery Lumen Expansion</h2>
+                            </header>
+                            <p>Spatial storytelling for a multi-room exhibition. Focused on light gradients and circulation cues that guide visitors without signage overload.</p>
+                            <ul class="project-insights">
+                                <li>Day-to-night lighting passes supporting extended opening hours</li>
+                                <li>Visitor wayfinding rendered through colour blocking</li>
+                                <li>High-resolution hero renders for curator decks</li>
+                            </ul>
+                        </article>
+                        <article class="project-detail" data-project="monolith">
+                            <header>
+                                <span class="card-tag">Product</span>
+                                <h2>Monolith Lighting Series</h2>
+                            </header>
+                            <p>Product vignettes built for launch, combining stills, exploded builds, and short loops ready for social cutdowns and retail screens.</p>
+                            <ul class="project-insights">
+                                <li>Parameter-driven lighting rigs for quick iteration</li>
+                                <li>Exploded diagrams highlighting modular engineering</li>
+                                <li>Motion-ready files for in-store digital signage</li>
+                            </ul>
+                        </article>
+                        <article class="project-detail" data-project="horizon">
+                            <header>
+                                <span class="card-tag">Hospitality</span>
+                                <h2>Horizon Rooftop Concept</h2>
+                            </header>
+                            <p>Atmospheric hospitality concepts rendered for sunset and late-night service, highlighting materiality shifts across lighting scenarios.</p>
+                            <ul class="project-insights">
+                                <li>Dual lighting states for golden hour and midnight service</li>
+                                <li>Spatial storytelling for seating, bar, and terrace experiences</li>
+                                <li>VR-ready panoramas for stakeholder previews</li>
+                            </ul>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section section-full contact">
+            <div class="container contact-layout">
+                <div class="contact-intro">
+                    <p class="eyebrow">Contact & Availability</p>
+                    <h2>Send through your brief, timeline, and references.</h2>
+                    <p class="lead">Replies land within two working days with availability, project scope, and suggested deliverables.</p>
+                    <dl class="contact-meta">
+                        <div>
+                            <dt>Email</dt>
+                            <dd><a href="mailto:hello@rohancook.com">hello@rohancook.com</a></dd>
+                        </div>
+                        <div>
+                            <dt>Time zone</dt>
+                            <dd>UTC +10 (Brisbane)</dd>
+                        </div>
+                    </dl>
+                </div>
+                <form class="contact-form" name="contact" method="post" data-netlify="true">
+                    <div class="form-row">
+                        <label for="name">Name</label>
+                        <input id="name" name="name" type="text" placeholder="Samantha Lee" required />
+                    </div>
+                    <div class="form-row">
+                        <label for="email">Email</label>
+                        <input id="email" name="email" type="email" placeholder="you@studio.com" required />
+                    </div>
+                    <div class="form-row">
+                        <label for="project">Project notes</label>
+                        <textarea id="project" name="project" placeholder="Scope, format, and timeline." rows="4" required></textarea>
+                    </div>
+                    <button class="btn" type="submit">Send enquiry</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-grid">
+            <div>
+                <span class="logo">Rohan Cook</span>
+                <p>Freelance 3D visualisation | Blender + supporting tools.</p>
+            </div>
+            <div class="footer-links">
+                <a href="mailto:hello@rohancook.com">Email</a>
+                <a href="https://www.artstation.com" target="_blank" rel="noopener">ArtStation</a>
+                <a href="https://www.behance.net" target="_blank" rel="noopener">Behance</a>
+                <a href="https://www.linkedin.com" target="_blank" rel="noopener">LinkedIn</a>
+            </div>
+            <p class="copyright">c <span id="year"></span> Rohan Cook. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
